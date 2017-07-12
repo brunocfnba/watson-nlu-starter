@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <title>My First App</title>
+</head>
+
+<body>
+    <h1>CIO Executive Hackathon</h1>
+    <div>
+        <p>Type a short sentence in the box below and let Watson tell its sentiment.</p>
+        <textarea rows="10" cols="75" style="resize: none;" id="sentence"></textarea>
+		<BR>
+		<BR>
+		<button id="send">Check sentiment</button>
+    </div>
+    <div id="answer">
+    	<p>This is what Watson got from your sentence:<BR>
+    	Sentiment: <span id="sentiment-ans" style="color: red;">Positive</span><BR>
+    	Confidence: <span id="conf-ans" style="color: red;">100%</span><BR>
+    	Language of you sentence: <span id="lang-ans" style="color: red;">EN</span><BR>
+    	</p>
+    </div>
+    <BR>
+    <div id="error">
+    	
+    </div>
+    <div id="loading">
+    	<img src="img/ford_lodding.gif" alt="loading" width="50"></img>
+    </div>
+
+</body>
+
+</html>
