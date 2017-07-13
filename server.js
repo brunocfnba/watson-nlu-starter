@@ -5,8 +5,8 @@ var port = process.env.PORT || 8080;
 
 var nlu_inst = require('watson-developer-cloud/natural-language-understanding/v1.js');
 var nlu = new nlu_inst({
-  'username': '847d76eb-16da-466d-8293-35048078235b',
-  'password': '2MZ4XgOUZHdo',
+  'username': '<nlu usename>',
+  'password': '<nlu password>',
   'version_date': '2017-02-27'
 });
 
